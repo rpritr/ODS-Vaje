@@ -7,82 +7,27 @@ The exercises are carried out on computers, using open-source tools and real-wor
 
 ---
 
-## ✅ Exercises by session
+## 📖 Lab work list
 
-### 1️⃣ Introduction to Document Management Systems
-- What is a Document Management System (DMS)?
-- Practical: research examples of DMS in practice (MS SharePoint, Alfresco, M-Files…).
-- 📝 **Task:** analysing examples of DMS usage in a company or organization.
+| Folder   | Lab work |
+|--------|---------------|
+| `lab01` | Setting Up a SharePoint Document Management System for a Company |
+| `lab02` | Creating a Document Overview Page in SharePoint |
+| `lab03` | Document Lifecycle & Versioning in SharePoint |
 
-### 2️⃣ Types of Documents and Metadata
-- Structure of a digital document (file + metadata).
-- Practical: analyze PDF documents with embedded metadata (ExifTool).
-- 📝 **Task:** outputing metadata of three different types of documents.
 
-### 3️⃣ Electronic Document Creation
-- Document formats and their characteristics (DOCX, PDF/A, ODT…).
-- Practical: create a document with defined style rules and convert it to PDF/A.
-- 📝 **Task:** submiting a properly formatted document.
 
-### 4️⃣ Document Storage and Organization
-- Folders, tags, versioning.
-- Practical: use an open-source versioning system (Nextcloud or git).
-- 📝 **Task:** creating a folders with subfolders and versioned documents.
-
-### 5️⃣ Accessibility and Search
-- Content indexing of documents.
-- Practical: use search in Nextcloud / Windows Search / grep.
-- 📝 **Task:** finding all documents containing a specific keyword and write down the query.
-
-### 6️⃣ Archiving and Legal Requirements
-- The concept of archiving and legal bases (GDPR, local laws).
-- Practical: convert a document to an archival format and set retention period.
-- 📝 **Task:** archiving a document and describe the archiving process.
-
-### 7️⃣ Document Security
-- Permissions and encryption.
-- Practical: set access rights and protect a document with a password.
-- 📝 **Task:** creating a folder with a protected document and simulate access.
-
-### 8️⃣ Electronic Signature
-- What is an electronic signature and how does it work?
-- Practical: create your own key and sign a PDF (e.g., with XCA or OpenSSL).
-- 📝 **Task:** submiting a signed document and verify the signature.
-
-### 9️⃣ Document Lifecycle Management
-- Phases: creation, use, archiving, destruction.
-- Practical: create a lifecycle plan for an example document.
-- 📝 **Task:** drawing a lifecycle diagram.
-
-### 🔟 DMS Integration in Business Environment
-- Connecting with other information systems.
-- Practical: example of integrating email and DMS (save attachment to system).
-- 📝 **Task:** presenting a scenario of integration.
-
-### 1️⃣1️⃣ Open Source DMS Overview
-- Alfresco, OpenKM, LogicalDOC.
-- Practical: install a demo version of one of the systems and test it.
-- 📝 **Task:** describing impressions and possible use cases.
-
-### 1️⃣2️⃣ Advanced Search Options
-- By content, by metadata, by users.
-- Practical: create advanced queries and filter results.
-- 📝 **Task:** writing down three different queries.
-
-### 1️⃣3️⃣ Cost-Benefit Analysis of Implementing DMS
-- When is it worth it?
-- Practical: mini case study on a fictional organization.
-- 📝 **Task:** submiting a table of pros and cons.
-
-### 1️⃣4️⃣ DMS Trends and Future Outlook
-- Cloud systems, automation, AI.
-- Practical: discussion and preparation of a short presentation.
-- 📝 **Task:** submiting a PowerPoint about a trend.
-
-### 1️⃣5️⃣ Wrap-up and Evaluation
-- Recap of key concepts.
-- Practical: quiz and discussion about the usefulness of knowledge.
-- 📝 **Task:** reflection and report submission.
+| `lab02` | Varnost posameznikov v kibernetskem prostoru |
+| `lab04` | MetaOSINT – Kaj vse razkrije fotografija? |
+| `lab05` | Socialni inženiring in obrambe pred njim |
+| `lab06` | Testiranje varnosti gesel z razbijanjem zgoščenih vrednosti |
+| `lab07` | Prepoznavanje in preprečevanje phishing napadov |
+| `lab08` | Uporaba varne komunikacije |
+| `lab09` | Testiranje SSH varnosti z Nmap in Hydra |
+| `lab10` | CTF vaja na realnem primeru: HackyCorp |
+| `lab11` | Linux CTF |
+| `lab12` | Priprava varnostne politike |
+| `lab13` | Projektna naloga: Sistemski ali zunanji varnostni pregled |
 
 ---
 
