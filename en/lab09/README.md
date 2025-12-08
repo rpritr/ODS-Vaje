@@ -1,7 +1,6 @@
 # 9️⃣ Document Lifecycle Management
 
 **Exercise 9 – Planning a document’s lifecycle**  
-📅 Duration: 1 hour
 
 ---
 

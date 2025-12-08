@@ -1,7 +1,6 @@
 # 6️⃣ Archiving and Legal Requirements
 
 **Exercise 6 – Archiving a document for long-term retention**  
-📅 Duration: 1 hour
 
 ---
 

@@ -1,7 +1,6 @@
-# 4️⃣ Document Storage and Organization
+# 4️⃣ Document Storage and Organization using SharePoint
 
 **Exercise 4 – Organizing documents using folders, tags, and versioning**  
-📅 Duration: 1 hour
 
 ---
 

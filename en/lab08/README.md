@@ -1,7 +1,6 @@
 # 8️⃣ Electronic Signature
 
 **Exercise 8 – Signing and verifying a document electronically**  
-📅 Duration: 1 hour
 
 ---
 

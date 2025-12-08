@@ -2,7 +2,7 @@
 
 ## 🏢 Scenario
 
-As a member of the IT department at **Digitera d.o.o.**, you’ve already helped build the company’s document library. Now, your task is to make the system more user-friendly by designing an **overview page** (dashboard) in SharePoint.
+As a member of the IT department at **Digitera Ltd.**, you’ve already helped build the company’s document library. Now, your task is to make the system more user-friendly by designing an **overview page** (dashboard) in SharePoint.
 
 This page will help employees quickly:
 - view important documents,

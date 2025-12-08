@@ -1,7 +1,6 @@
 # 7️⃣ Document Security
 
 **Exercise 7 – Protecting documents with permissions and encryption**  
-📅 Duration: 1 hour
 
 ---
 

@@ -1,7 +1,6 @@
 # 1️⃣1️⃣ Open Source DMS Overview
 
 **Exercise 11 – Exploring open-source DMS solutions**  
-📅 Duration: 1 hour
 
 ---
 

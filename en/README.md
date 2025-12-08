@@ -14,22 +14,27 @@ The exercises are carried out on computers, using open-source tools and real-wor
 | `lab01` | Setting Up a SharePoint Document Management System for a Company |
 | `lab02` | Creating a Document Overview Page in SharePoint |
 | `lab03` | Document Lifecycle & Versioning in SharePoint |
-
-
-
-| `lab02` | Varnost posameznikov v kibernetskem prostoru |
-| `lab04` | MetaOSINT – Kaj vse razkrije fotografija? |
-| `lab05` | Socialni inženiring in obrambe pred njim |
-| `lab06` | Testiranje varnosti gesel z razbijanjem zgoščenih vrednosti |
-| `lab07` | Prepoznavanje in preprečevanje phishing napadov |
-| `lab08` | Uporaba varne komunikacije |
-| `lab09` | Testiranje SSH varnosti z Nmap in Hydra |
-| `lab10` | CTF vaja na realnem primeru: HackyCorp |
-| `lab11` | Linux CTF |
+| `lab04` | Document Storage and Organization using SharePoint |
+| `lab05` | Accessibility and Search |
+| `lab06` | Archiving and Legal Requirements |
+| `lab07` | Document Security |
+| `lab08` | Electronic Signature |
+| `lab09` | Document Lifecycle Management |
+| `lab10` | DMS Integration in Business Environment |
+| `lab11` | Open Source DMS Overview |
 | `lab12` | Priprava varnostne politike |
 | `lab13` | Projektna naloga: Sistemski ali zunanji varnostni pregled |
 
 ---
 
-📚 **Assistant Professor:** *Robi Pritržnik*  
+📚 **Teaching Assistant:** *Robi Pritržnik, MSc CS*  
 📅 **Year:** 2025/26
+
+## Notes
+
+**Use of AI:** During the development of the content and preparation of the documentation, the ChatGPT tool (OpenAI) was used as assistance for generating ideas, optimizing text, and shaping the structure of the project.  
+All final solutions were reviewed, verified, and adjusted by the author of the project as needed.
+
+## References
+
+OpenAI. (2025). *ChatGPT* (Aug 2025) [Large language model]. https://chat.openai.com/

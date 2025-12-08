@@ -1,7 +1,6 @@
 # 🔟 DMS Integration in Business Environment
 
 **Exercise 10 – Integrating DMS with other systems**  
-📅 Duration: 1 hour
 
 ---
 
