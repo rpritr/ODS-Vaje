@@ -1,14 +1,10 @@
-# 📘 Exercise 2: Creating a Document Overview Page in SharePoint
+# 📁 Setting Up a SharePoint Document Management System for a Company
 
 ## 🏢 Scenario
 
-As a member of the IT department at **Digitera Ltd.**, you’ve already helped build the company’s document library. Now, your task is to make the system more user-friendly by designing an **overview page** (dashboard) in SharePoint.
+You are part of the IT department at **Digitera Ltd..**, a company providing software development, consulting, and support services.
 
-This page will help employees quickly:
-- view important documents,
-- navigate between departments and document types,
-- find recent uploads,
-- understand how the system works.
+The management has asked you to set up a **document management system** using **Microsoft SharePoint** to help departments organize their documents and streamline internal operations.
 
 ---
 
@@ -16,68 +12,114 @@ This page will help employees quickly:
 
 In this exercise, you will:
 
-- Create a **modern SharePoint page**
-- Add relevant **web parts** (components)
-- Build a **functional and clean dashboard**
-- Help other employees navigate the document system
+- Understand the basics of a document management system (DMS)
+- Create a SharePoint document library with business-relevant metadata
+- Upload and classify company documents
+- Organize documents by views and filters for easier access
 
 ---
 
-## 1️⃣ Step 1: Create a New Page
+## 🧰 Prerequisites
 
-1. Navigate to your SharePoint site
-2. Click **New > Site Page**
-3. Choose the **Blank** template
-4. Name the page: `Document Dashboard`
-5. Click **Publish** (you can make it the homepage if allowed)
+- Microsoft 365 account
+- Access to a SharePoint site (provided by your instructor)
 
----
-
-## 2️⃣ Step 2: Add Web Parts (Components)
-
-Use the "+" button to add each of the following:
-
-### 🔹 Document Library
-- Add the `Company Documents` library
-- Display metadata columns: `Document Type`, `Department`, `Status`
-- Apply an existing view (e.g. “Submitted” or “By Department”)
-
-### 🔹 Quick Links
-Add links to:
-- Internal Documents
-- Offers
-- Invoices
-
-### 🔹 Text
-Add a short explanation of the dashboard, for example:
-
-> _"This dashboard provides an overview of company documentation. Use the sections below to browse and manage documents by department and document type."_
-
-### 🔹 Recent Activity
-- Shows the latest edits and uploads to the document library
+We will provide you a link to the SharePoint site, example:  
+`https://studentfisunm.sharepoint.com`
 
 ---
 
-## 3️⃣ Step 3: Customize and Arrange
+## 1️⃣ Step 1: Explore the SharePoint Site
 
-- Reorder web parts for clarity
-- Use sections (1 column, 2-column, etc.) for visual grouping
-- Give each section a clear title (e.g. “Submitted Documents”, “Help & Resources”)
+1. Open the provided SharePoint site
+2. Navigate to the **Documents** section or to the pre-created **Company Documents** library
+3. Explore existing folders or create a new one called `Internal Docs`
+
+---
+
+## 2️⃣ Step 2: Create the Folders in the Document library
+
+If you are allowed to create libraries:
+
+1. Click **New > Folder**
+2. Name it `Company Documents`
+3. Create a New Word Document with content: `Digitera document archive and internal documentation`
+4. Click **Create**
+
+If not, use the existing `Company Documents` library provided by your instructor.
+
+
+Next we will create some specific folders with Access Restrictions:
+
+1. Click **New > Folder**
+2. Name it `Private`
+3. Click **Create**
+4. Set Permissions so that only you can access the folder
+---
+
+## 3️⃣ Step 3: Add custom metadata columns
+
+Inside the library, create the following custom columns:
+
+| Column Name     | Type         | Choices (if applicable)             |
+|------------------|--------------|-------------------------------------|
+| `Department`     | Choice       | Development, Sales, Support         |
+| `Document Type`  | Choice       | Contract, Invoice, Offer, Policy, Manual |
+| `Client Name`    | Single line of text |                            |
+| `Status`         | Choice       | Draft, Submitted, Approved          |
+| `Year`           | Choice       | 2024, 2025                          |
+
+📌 **How to add a column:**
+- Go to the library view
+- Click on **+ Add column**
+- Choose the appropriate column type and set the name and choices
 
 ---
 
-## ✅ Deliverables
+## 4️⃣ Step 4: Upload company documents
 
-By the end of this exercise, you should have:
+1. Download the provided sample documents (or use your own mock files):
+   - `Contract_ClientX.pdf`
+   - `Invoice_March2025.pdf`
+   - `Offer_WebPortal.pdf`
+2. Upload them to the `Company Documents` library
+3. Open the **Details panel** for each file and fill in all metadata fields
 
-- A SharePoint page titled `Document Dashboard`
-- At least 3 functional web parts
-- A clean and informative layout
+Example:
+
+File: Invoice_March2025.pdf  
+Department: Support  
+Document Type: Invoice  
+Client Name: ClientX  
+Status: Submitted  
+Year: 2025  
+
+
+## 5️⃣ Step 5: Use custom views
+
+Now use filtered views to simulate real-world use:
+
+### View 1: **By Specific folders**
+- Show contents of `Internal Documents` folder
+- Show contents of `Marketing` folder
+- Show only docments by `Specific` owner
 
 ---
+
+## ✅ Expected Outcome
+
+By the end of the exercise, you should have:
+
+- A document library named `Company Documents`
+- At least 3 uploaded files with properly filled metadata
+- 2–3 custom views created to filter or group documents
+- A clear understanding of how metadata improves navigation and management
+
+---
+
 
 ## 📚 Resources
 
-- [Create a modern SharePoint page](https://support.microsoft.com/en-us/office/create-and-use-modern-pages-on-a-sharepoint-site-0e676c57-2672-4564-a932-3b417d6d52ac)
-- [Add web parts to a page](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-aed3-6df7f89495b2)
-- [Use the document library web part](https://support.microsoft.com/en-us/office/document-library-web-part-4b0b42e3-5f6c-4938-a6ed-7e81e791beac)
+- [What is SharePoint?](https://learn.microsoft.com/en-us/sharepoint/introduction)
+- [Create and manage custom views](https://support.microsoft.com/en-us/office/create-a-view-7e8a20dc-8619-431e-bf52-7c1a53c8e73c)
+- [SharePoint metadata columns](https://support.microsoft.com/en-us/office/add-remove-or-update-columns-in-a-library-02f0a1f2-9ea1-4f8f-9016-0507d52d7d8c)

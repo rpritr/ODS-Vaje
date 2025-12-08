@@ -11,19 +11,10 @@ The exercises are carried out on computers, using open-source tools and real-wor
 
 | Folder   | Lab work |
 |--------|---------------|
-| `lab01` | Setting Up a SharePoint Document Management System for a Company |
-| `lab02` | Creating a Document Overview Page in SharePoint |
-| `lab03` | Document Lifecycle & Versioning in SharePoint |
-| `lab04` | Document Storage and Organization using SharePoint |
-| `lab05` | Accessibility and Search |
-| `lab06` | Archiving and Legal Requirements |
-| `lab07` | Document Security |
-| `lab08` | Electronic Signature |
-| `lab09` | Document Lifecycle Management |
-| `lab10` | DMS Integration in Business Environment |
-| `lab11` | Open Source DMS Overview |
-| `lab12` | Priprava varnostne politike |
-| `lab13` | Projektna naloga: Sistemski ali zunanji varnostni pregled |
+| `lab01` | Using Google Drive as a Document Management System (DMS) |
+| `lab02` | Setting Up a SharePoint Document Management System for a Company |
+| `lab02` | Setting Up an Opensource Document Management System with Paperless-Ngx |
+| `lab13` | Project Assignment: Design a Document Management System for a Company |
 
 ---
 

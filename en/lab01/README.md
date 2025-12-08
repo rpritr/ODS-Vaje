@@ -1,125 +1,245 @@
-# 📁 Setting Up a SharePoint Document Management System for a Company
+# 📘 Exercise 1: Using Google Drive as a Document Management System (DMS)
 
-## 🏢 Scenario
-
-You are part of the IT department at **Digitera Ltd..**, a company providing software development, consulting, and support services.
-
-The management has asked you to set up a **document management system** using **Microsoft SharePoint** to help departments organize their documents and streamline internal operations.
+This exercise introduces the fundamentals of designing and implementing a Document Management System (DMS) using **Google Drive**.  
+Students analyze a sample company, identify document types, propose a folder structure, assign access rights, and implement the system.
 
 ---
 
-## 🎯 Objectives
+# 🏢 Company Description
 
-In this exercise, you will:
-
-- Understand the basics of a document management system (DMS)
-- Create a SharePoint document library with business-relevant metadata
-- Upload and classify company documents
-- Organize documents by views and filters for easier access
+**Example company:** *Fashion Brand X*  
+Fashion Brand X is an online fashion retailer operating a web shop where it sells a variety of digital and physical fashion products.
 
 ---
 
-## 🧰 Prerequisites
+# 👥 Company Employee Structure
 
-- Microsoft 365 account
-- Access to a SharePoint site (provided by your instructor)
+The company employs **50 people**, organized into the following departments:
 
-We will provide you a link to the SharePoint site, example:  
-`https://studentfisunm.sharepoint.com`
+- **Accounting (5 employees)**  
+  Responsible for invoicing, accounting, and financial reporting.
 
----
+- **Marketing (10 employees)**  
+  Responsible for advertising, digital marketing, and social media.
 
-## 1️⃣ Step 1: Explore the SharePoint Site
+- **IT Department (5 employees)**  
+  Responsible for systems, maintenance, and technical support.
 
-1. Open the provided SharePoint site
-2. Navigate to the **Documents** section or to the pre-created **Company Documents** library
-3. Explore existing folders or create a new one called `Internal Docs`
+- **Logistics (20 employees)**  
+  Handles product packaging, shipping, and warehouse operations.
 
----
+- **Operations (5 employees)**  
+  Manages project coordination and daily operational workflows.
 
-## 2️⃣ Step 2: Create the Folders in the Document library
-
-If you are allowed to create libraries:
-
-1. Click **New > Folder**
-2. Name it `Company Documents`
-3. Create a New Word Document with content: `Digitera document archive and internal documentation`
-4. Click **Create**
-
-If not, use the existing `Company Documents` library provided by your instructor.
-
-
-Next we will create some specific folders with Access Restrictions:
-
-1. Click **New > Folder**
-2. Name it `Private`
-3. Click **Create**
-4. Set Permissions so that only you can access the folder
----
-
-## 3️⃣ Step 3: Add custom metadata columns
-
-Inside the library, create the following custom columns:
-
-| Column Name     | Type         | Choices (if applicable)             |
-|------------------|--------------|-------------------------------------|
-| `Department`     | Choice       | Development, Sales, Support         |
-| `Document Type`  | Choice       | Contract, Invoice, Offer, Policy, Manual |
-| `Client Name`    | Single line of text |                            |
-| `Status`         | Choice       | Draft, Submitted, Approved          |
-| `Year`           | Choice       | 2024, 2025                          |
-
-📌 **How to add a column:**
-- Go to the library view
-- Click on **+ Add column**
-- Choose the appropriate column type and set the name and choices
+- **Executive (5 employees)**  
+  Responsible for company leadership (C-level management).
 
 ---
 
-## 4️⃣ Step 4: Upload company documents
+# 📄 Document Identification
 
-1. Download the provided sample documents (or use your own mock files):
-   - `Contract_ClientX.pdf`
-   - `Invoice_March2025.pdf`
-   - `Offer_WebPortal.pdf`
-2. Upload them to the `Company Documents` library
-3. Open the **Details panel** for each file and fill in all metadata fields
+There are **6 departments** in the company:  
+Accounting, Marketing, IT, Logistics, Operations, Executive.
 
-Example:
+### ✔️ How to collect document information?
+Possible methods include:
 
-File: Invoice_March2025.pdf  
-Department: Support  
-Document Type: Invoice  
-Client Name: ClientX  
-Status: Submitted  
-Year: 2025  
-
-
-## 5️⃣ Step 5: Use custom views
-
-Now use filtered views to simulate real-world use:
-
-### View 1: **By Specific folders**
-- Show contents of `Internal Documents` folder
-- Show contents of `Marketing` folder
-- Show only docments by `Specific` owner
+- Meetings with department representatives  
+- Emails with structured questionnaires  
+- Phone interviews with employees  
+- On-site document analysis  
+- Proposing an initial structure based on prior experience
 
 ---
 
-## ✅ Expected Outcome
+## **Accounting Department – Document Types**
 
-By the end of the exercise, you should have:
-
-- A document library named `Company Documents`
-- At least 3 uploaded files with properly filled metadata
-- 2–3 custom views created to filter or group documents
-- A clear understanding of how metadata improves navigation and management
+- Invoices – PDF  
+- Accounting statements  
+- Financial reports  
+- Bank fees and bank reports  
 
 ---
 
+## **Marketing Department – Document Types**
 
-## 📚 Resources
+- Monthly social media plans – Excel  
+- Images for social posts  
+- Product images  
+- Meeting reports – PDF/Word  
+- Presentations – PowerPoint  
 
-- [What is SharePoint?](https://learn.microsoft.com/en-us/sharepoint/introduction)
-- [Create and manage custom views](https://support.microsoft.com/en-us/office/create-a-view-7e8a20dc-8619-431e-bf52-7c1a53c8e73c)
-- [SharePoint metadata columns](https://support.microsoft.com/en-us/office/add-remove-or-update-columns-in-a-library-02f0a1f2-9ea1-4f8f-9016-0507d52d7d8c)
+---
+
+## **IT Department – Document Types (TODO)**  
+_Write your own document identification for this department._
+
+---
+
+## **Logistics Department – Document Types (TODO)**  
+_Write your own document identification for this department._
+
+---
+
+## **Operations Department – Document Types (TODO)**  
+_Write your own document identification for this department._
+
+---
+
+## **Executive Department – Document Types (TODO)**  
+_Write your own document identification for this department._
+
+---
+
+# 🔍 Identification of DMS Needs & Usage
+
+### **Accounting**
+
+- Document types: PDF, Word, Excel, CSV  
+- Needs structured organisation by type:  
+  - Invoices  
+  - Statements  
+  - Reports  
+- All employees need DMS access: **YES**  
+- Special features: none  
+
+---
+
+### **Marketing**
+
+- Document types: PDF, Word, Excel, PowerPoint, Images  
+- Needs structured organisation by type:  
+  - Text documents  
+  - Images  
+  - Reports  
+  - Presentations  
+- All employees need DMS access: **YES**  
+- Special features: none  
+
+---
+
+### **IT Department (TODO)**  
+_Write your own DMS needs for this department._
+
+---
+
+### **Logistics Department (TODO)**  
+_Write your own DMS needs for this department._
+
+---
+
+### **Operations Department (TODO)**  
+_Write your own DMS needs for this department._
+
+---
+
+### **Executive Department (TODO)**  
+_Write your own DMS needs for this department._
+
+---
+
+# 🗂 Proposed Folder Structure
+
+### **Notes:**
+- Each department has its **own root folder**
+- Access is **restricted per department**
+- A shared folder is available for all employees
+
+```
+Fashion_Company_DMS
+│
+├── Accounting
+│   ├── Invoices
+│   ├── Statements
+│   └── Reports
+│
+├── Marketing
+│   ├── Reports
+│   ├── Social_Media
+│   │   ├── Images
+│   │   └── Plans
+│   └── Presentations
+│
+├── IT
+│   └── TODO: add folder structure for this department
+│
+├── Logistics
+│   └── TODO: add folder structure for this department
+│
+├── Operations
+│   └── TODO: add folder structure for this department
+│
+├── Executive
+│   └── TODO: add folder structure for this department
+│
+└── Shared
+    ├── Documents
+    │   ├── Internal
+    │   └── HR
+    └── Corporal_Visual_Identity
+        ├── Branding
+        └── Logos
+```
+
+---
+
+# 🛠 Choose a DMS Platform
+
+Based on company needs and pricing, possible candidates include:
+
+- Microsoft SharePoint  
+- Google Drive  
+- Dropbox  
+- Open-source solutions  
+
+### **Chosen DMS:**  
+👉 **Google Drive** – suitable for small to mid-size companies, user friendly, low cost, well integrated.
+
+---
+
+# 🚀 Implementation
+
+The folder structure is implemented in Google Drive following the design above.
+
+Example screenshots or confirmation:
+
+### **Accounting Folder**
+
+(Example structure)
+
+### **Shared Folder**
+
+(Example structure)
+
+---
+
+# ✅ DMS Needs Checklist
+
+Complete this table to verify whether the system meets all departmental requirements.
+
+| Department | Needs | Are needs satisfied? | Notes |
+|-----------|-------|----------------------|--------|
+| Accounting | PDF, Word, Excel, CSV; structured by type (invoices/statements/reports) | YES | / |
+| Marketing | PDF, Word, Excel, PowerPoint, Images; structured by document type | YES | / |
+| IT | TODO |  | |
+| Logistics | TODO |  | |
+| Operations | TODO |  | |
+| Executive | TODO |  | |
+
+---
+
+# 🎉 Conclusion
+
+All required departmental needs are satisfied, and the DMS implementation in Google Drive was successful.  
+This system enables the company to efficiently manage, store, and collaborate on documents across all departments.
+
+---
+
+## Notes
+
+**Use of AI:** During the development of the content and preparation of the documentation, the ChatGPT tool (OpenAI) was used as assistance for generating ideas, optimizing text, and shaping the structure of the project.  
+All final solutions were reviewed, verified, and adjusted by the author of the project as needed.
+
+## References
+
+OpenAI. (2025). *ChatGPT* (Aug 2025) [Large language model]. https://chat.openai.com/
