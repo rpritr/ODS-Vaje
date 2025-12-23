@@ -17,8 +17,8 @@ The goal of this assignment is for you to design a comprehensive document manage
    - Highlight the main problems and inefficiencies that motivate the introduction of a DMS.  
 
 3. **DMS requirements & goals**  
-   - Specify the objectives for the new DMS (e.g. centralised storage, version control, controlled access, better search, workflow automation, audit trail, improved collaboration, regulatory compliance, backup/archiving, etc.).  [oai_citation:0‡The Digital Project Manager](https://thedigitalprojectmanager.com/project-management/document-management-strategy/?utm_source=chatgpt.com)  
-   - Define any non-functional requirements: security/access control, user roles and permissions, metadata/tags, retention/archiving policy, backup strategy, usability, scalability, etc.  [oai_citation:1‡The Digital Project Manager](https://thedigitalprojectmanager.com/project-management/document-management-strategy/?utm_source=chatgpt.com)  
+   - Specify the objectives for the new DMS (e.g. centralised storage, version control, controlled access, better search, workflow automation, audit trail, improved collaboration, regulatory compliance, backup/archiving, etc.).
+   - Define any non-functional requirements: security/access control, user roles and permissions, metadata/tags, retention/archiving policy, backup strategy, usability, scalability, etc. 
 
 4. **Proposed DMS solution design**  
    - Choose a DMS platform (e.g. SharePoint, or another), and justify why it is suitable for this company.  
@@ -31,8 +31,8 @@ The goal of this assignment is for you to design a comprehensive document manage
    - Show step-by-step how documents flow through the system (who does what, which folder they go into, what metadata is applied, how versioning and permissions work).  
 
 6. **Migration / Implementation considerations** *(optional but recommended)*  
-   - If the company currently has documents in paper or in unstructured digital files, describe how you would migrate them to the DMS (e.g. scanning, digitizing, categorizing).  [oai_citation:2‡greenofficepartner.com](https://www.greenofficepartner.com/blog/implement-document-management-system-guide?utm_source=chatgpt.com)  
-   - Suggest training or adoption plan for employees, and how to ensure consistent usage of the system (governance, guidelines, audits) over time.  [oai_citation:3‡The Digital Project Manager](https://thedigitalprojectmanager.com/project-management/document-management-strategy/?utm_source=chatgpt.com)  
+   - If the company currently has documents in paper or in unstructured digital files, describe how you would migrate them to the DMS (e.g. scanning, digitizing, categorizing).
+   - Suggest training or adoption plan for employees, and how to ensure consistent usage of the system (governance, guidelines, audits) over time. 
 
 7. **Deliverables**  
    - A report that includes: company description, requirements, proposed DMS design, folder/metadata structure, user roles/workflows, and example usage scenarios.  
