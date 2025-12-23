@@ -14,6 +14,8 @@ The exercises are carried out on computers, using open-source tools and real-wor
 | `lab01` | Using Google Drive as a Document Management System (DMS) |
 | `lab02` | Setting Up a SharePoint Document Management System for a Company |
 | `lab02` | Setting Up an Opensource Document Management System with Paperless-Ngx |
+| `lab03` | Creating a Document Overview Page in SharePoint |
+| `lab04` | Document Lifecycle & Versioning in SharePoint |
 | `lab13` | Project Assignment: Design a Document Management System for a Company |
 
 ---
