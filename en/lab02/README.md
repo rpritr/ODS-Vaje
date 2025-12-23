@@ -67,7 +67,7 @@ Inside the library, create the following custom columns:
 | `Document Type`  | Choice       | Contract, Invoice, Offer, Policy, Manual |
 | `Client Name`    | Single line of text |                            |
 | `Status`         | Choice       | Draft, Submitted, Approved          |
-| `Year`           | Choice       | 2024, 2025                          |
+| `Year`           | Single line of text       |                           |
 
 📌 **How to add a column:**
 - Go to the library view
@@ -88,7 +88,7 @@ Inside the library, create the following custom columns:
 Example:
 
 File: Invoice_March2025.pdf  
-Department: Support  
+Department: IT  
 Document Type: Invoice  
 Client Name: ClientX  
 Status: Submitted  
