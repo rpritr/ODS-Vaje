@@ -1,7 +1,7 @@
 # Project Assignment: Design a Document Management System for a Company
 
 ## Objective  
-The goal of this assignment is for you to design a comprehensive document management system (DMS) for a hypothetical (or real) company in a specific business field. You will describe the company and its business processes, analyse its document/workflow needs, and propose a structured DMS solution (e.g. using SharePoint or a similar platform). As part of the project you’ll create a folder/metadata structure, define workflows and access controls, and provide an example of how the DMS would be used in practice.
+The goal of this assignment is for you to design a comprehensive document management system (DMS) for a hypothetical (or real) company in a specific business field. You will describe the company and its business processes, analyse its document/workflow needs, and propose a structured DMS solution (e.g. using SharePoint, Odoo Documents, or a similar platform). As part of the project you’ll create a folder/metadata structure, define workflows and access controls, and provide an example of how the DMS would be used in practice.
 
 ---
 
@@ -21,7 +21,7 @@ The goal of this assignment is for you to design a comprehensive document manage
    - Define any non-functional requirements: security/access control, user roles and permissions, metadata/tags, retention/archiving policy, backup strategy, usability, scalability, etc. 
 
 4. **Proposed DMS solution design**  
-   - Choose a DMS platform (e.g. SharePoint, or another), and justify why it is suitable for this company.  
+   - Choose a DMS platform (e.g. SharePoint, Odoo Documents, or another), and justify why it is suitable for this company.  
    - Provide a proposed folder structure and metadata taxonomy (or tagging scheme) for storing documents.  
    - Define user roles and permissions (who can read, edit, approve, archive, delete, etc.).  
    - Describe workflows for common business processes (e.g. document creation, review & approval, versioning, sharing, archiving).  
@@ -76,7 +76,7 @@ You can adapt or extend this structure as needed (for example, you may add secti
 
 ## Assignment Brief 
 
-**Task:** For a company in a business field of your choice, design a Document Management System. Provide a full analysis of current document handling and pain points, define requirements, propose a DMS (e.g. SharePoint or similar), design the folder/metadata structure and user workflows, and show at least one example of actual usage. Document everything in a well-structured README (or project documentation), include diagrams or folder-structure visualization, and optionally build a minimal folder skeleton or prototype.  
+**Task:** For a company in a business field of your choice, design a Document Management System. Provide a full analysis of current document handling and pain points, define requirements, propose a DMS (e.g. SharePoint, Odoo Documents, or similar), design the folder/metadata structure and user workflows, and show at least one example of actual usage. Document everything in a well-structured README (or project documentation), include diagrams or folder-structure visualization, and optionally build a minimal folder skeleton or prototype.  
 
 **Goal:** Simulate real-world implementation of a DMS: understand why companies need organized document systems; plan a solution that matches business needs; balance usability, security, and management needs; and communicate the solution clearly.  
 
