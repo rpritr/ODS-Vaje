@@ -17,10 +17,10 @@ The exercises are carried out on computers, using open-source tools and real-wor
 | `sharepoint/lab04` | Document Lifecycle & Versioning in SharePoint |
 | `odoo/lab02` | Setting Up an Odoo Document Management System for a Company |
 | `odoo/lab03` | Uploading and Organizing Company Documents in Odoo |
-| `odoo/lab04` | Company Logo and Sharing Documents in Odoo |
+| `odoo/lab04` | Versions, Lock, Company Logo, and Sharing Documents in Odoo |
 | `lab12` | Project Assignment: Design a Document Management System for a Company |
 
-SharePoint labs are in [`sharepoint/`](sharepoint/README.md). The same company scenario on **Odoo Documents** is in [`odoo/`](odoo/README.md): folders and a first upload, then filing documents, then the company logo and share links.
+SharePoint labs are in [`sharepoint/`](sharepoint/README.md). The same company scenario on **Odoo Documents** is in [`odoo/`](odoo/README.md): folders and a first upload, then filing documents, then versions, lock, the company logo, and share links.
 
 ---
 

@@ -6,6 +6,6 @@ These labs use **Odoo Documents** on [Odoo.com](https://www.odoo.com). The compa
 |--------|----------|
 | `lab02` | Set up the database, install Documents, create folders, upload one file |
 | `lab03` | Upload company documents and organize them into folders |
-| `lab04` | Change the company logo and share documents with a URL |
+| `lab04` | Versions, lock, company logo, and share URLs |
 
 Start with `lab02`. Each following lab continues in the same database.
